@@ -7,7 +7,7 @@
 // with the RH_RF95 class. RH_RF95 class does not provide for addressing or
 // reliability, so you should only use RH_RF95 if you do not need the higher
 // level messaging abilities.
-// Attention: You must change line 50 to the Bluetooth classic name that you will use with your android serial bluetooth device
+// Attention: You must change line 54 to the Bluetooth classic name that you will use with your android serial bluetooth device
 // You must switch the R/S Receive or Send switch (digital input GPIO35) depending if you are Sending or Receiving
 
 #include <SPI.h>  //see the code line 'SPI.begin(x, x, x, x);' in the 'void setup()' for changing the spi gpio pin assignments
